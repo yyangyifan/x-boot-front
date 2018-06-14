@@ -10,10 +10,10 @@
                 个人信息
             </p>
             <div>
-                <Form 
+                <Form
                     ref="userForm"
-                    :model="userForm" 
-                    :label-width="100" 
+                    :model="userForm"
+                    :label-width="100"
                     label-position="right"
                 >
                     <FormItem label="用户头像：">
@@ -135,6 +135,7 @@ export default {
     };
     return {
       accessToken: {},
+
       userForm: {
         id: "",
         avatar: "",
